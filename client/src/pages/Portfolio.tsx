@@ -10,7 +10,7 @@ import Footer from '@/components/Footer';
 // Import images
 import weatherAppImage from "@assets/generated_images/weather-app.png";
 import foodDeliveryImage from "@assets/generated_images/food-del.png";
-import ecommerceImage from "@assets/generated_images/E-commerce_platform_screenshot_8c27c010.png";
+import ecommerceImage from "@assets/generated_images/shophub.png";
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(() => {
