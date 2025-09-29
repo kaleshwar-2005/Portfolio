@@ -1,6 +1,6 @@
 import Projects from '../Projects';
-import weatherAppImage from "@assets/generated_images/Weather_app_interface_screenshot_135bac7e.png";
-import foodDeliveryImage from "@assets/generated_images/Food_delivery_app_screenshot_ccc0c173.png";
+import weatherAppImage from "@assets/generated_images/weather-app.png";
+import foodDeliveryImage from "@assets/generated_images/food-del.png";
 import ecommerceImage from "@assets/generated_images/E-commerce_platform_screenshot_8c27c010.png";
 
 export default function ProjectsExample() {

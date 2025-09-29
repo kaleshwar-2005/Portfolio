@@ -25,7 +25,7 @@ export default function Footer({ name, email, phone, github, linkedin }: FooterP
         window.open(`https://github.com/${github}`, '_blank');
         break;
       case 'linkedin':
-        window.open(`https://linkedin.com/in/${linkedin}`, '_blank');
+        window.open(linkedin.startsWith('http') ? linkedin : `https://linkedin.com/in/${linkedin}`, '_blank');
         break;
     }
   };

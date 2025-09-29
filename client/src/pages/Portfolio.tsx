@@ -8,8 +8,8 @@ import Certificates from '@/components/Certificates';
 import Footer from '@/components/Footer';
 
 // Import images
-import weatherAppImage from "@assets/generated_images/Weather_app_interface_screenshot_135bac7e.png";
-import foodDeliveryImage from "@assets/generated_images/Food_delivery_app_screenshot_ccc0c173.png";
+import weatherAppImage from "@assets/generated_images/weather-app.png";
+import foodDeliveryImage from "@assets/generated_images/food-del.png";
 import ecommerceImage from "@assets/generated_images/E-commerce_platform_screenshot_8c27c010.png";
 
 export default function Portfolio() {
@@ -31,12 +31,12 @@ export default function Portfolio() {
 
   // Portfolio data
   const personalInfo = {
-    name: "Kaleshwar Lakaram",
-    email: "kaleshwarlakaram2005@gmail.com",
-    phone: "9182375278",
-    github: "kaleshwar-2005",
-    linkedin: "Kaleshwar Lakaram"
-  };
+  name: "Kaleshwar Lakaram",
+  email: "kaleshwarlakaram2005@gmail.com",
+  phone: "9182375278",
+  github: "kaleshwar-2005",
+  linkedin: "https://www.linkedin.com/in/kaleshwar-mern-stack/"
+};
 
   const skillCategories = [
     {
@@ -77,8 +77,8 @@ export default function Portfolio() {
       description: "Built a responsive weather app used by 10+ peers during testing, fetching live weather data via REST APIs.",
       image: weatherAppImage,
       technologies: ["React.js", "OpenWeatherMap API"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://weather-app-3s1i.onrender.com",
+      githubUrl: "https://github.com/kaleshwar-2005/weather-app",
       highlights: [
         "Built a responsive weather app used by 10+ peers during testing",
         "Optimized API request handling to improve data fetch reliability", 
@@ -90,8 +90,8 @@ export default function Portfolio() {
       description: "Developed a full-stack delivery platform in a team of 4, enabling restaurant and order management.",
       image: foodDeliveryImage,
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://food-del-frontend-ndaa.onrender.com/",
+      githubUrl: "https://github.com/kaleshwar-2005/food_del",
       highlights: [
         "Developed a full-stack delivery platform in a team of 4",
         "Implemented JWT authentication for secure login and protected routes",
@@ -103,8 +103,8 @@ export default function Portfolio() {
       description: "Designed a demo e-commerce platform with 20+ sample products, supporting user registration, login, and cart checkout.",
       image: ecommerceImage,
       technologies: ["Node.js", "Express.js", "HTML", "CSS", "JavaScript"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://github.com/kaleshwar-2005/shophub",
+      githubUrl: "https://github.com/kaleshwar-2005/shophub",
       highlights: [
         "Designed a demo e-commerce platform with 20+ sample products",
         "Created an admin dashboard to simplify product and user management tasks",
@@ -147,28 +147,28 @@ export default function Portfolio() {
       issuer: "Cisco",
       icon: "🐍",
       description: "Fundamental Python programming concepts including data types, control structures, and functions.",
-      credentialUrl: "#"
+      credentialUrl: "https://www.credly.com/earner/earned/badge/144af414-04fb-4454-87eb-6c493bb84f63"
     },
     {
       title: "Python Essentials 2", 
       issuer: "Cisco",
       icon: "🐍",
       description: "Advanced Python programming including object-oriented programming, exception handling, and modules.",
-      credentialUrl: "#"
+      credentialUrl: "https://www.credly.com/earner/earned/badge/cc1007f7-241a-4431-99a9-6ab38e8bd971"
     },
     {
       title: "Introduction to Networks",
       issuer: "Cisco", 
       icon: "🌐",
       description: "Networking fundamentals covering protocols, network models, and basic network configuration.",
-      credentialUrl: "#"
+      credentialUrl: "https://www.credly.com/earner/earned/badge/06956e8e-c7bb-4f61-86a0-61b2a75d5a77"
     },
     {
       title: "IBM z/OS Mainframe Practitioner",
       issuer: "IBM",
       icon: "💻", 
       description: "Comprehensive understanding of IBM mainframe systems and z/OS operating system fundamentals.",
-      credentialUrl: "#"
+      credentialUrl: "https://www.credly.com/earner/earned/badge/7d34787c-8d29-49a2-9ed6-403d6fb91dfc"
     }
   ];
 

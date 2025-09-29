@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Mail, Phone, Github, Linkedin, ExternalLink } from "lucide-react";
-import profileImage from "@assets/generated_images/Professional_headshot_portrait_ab4f9325.png";
+import profileImage from "@assets/generated_images/WhatsApp Image 2025-09-19 at 14.21.22_ffedd17f.jpg";
 
 interface HeroProps {
   name: string;
@@ -37,7 +37,7 @@ export default function Hero({
         window.open(`https://github.com/${github}`, '_blank');
         break;
       case 'linkedin':
-        window.open(`https://linkedin.com/in/${linkedin}`, '_blank');
+        window.open(linkedin.startsWith('http') ? linkedin : `https://linkedin.com/in/${linkedin}`, '_blank');
         break;
     }
   };
